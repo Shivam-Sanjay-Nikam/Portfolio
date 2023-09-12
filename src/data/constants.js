@@ -1,6 +1,10 @@
 import Todo from './Todo.png'; // Assuming 'Todo.png' is in the same directory as this JavaScript file
 import Sort from './Sort.png'
 import Find from './find.png'
+import Search from './search.png'
+import Disney from './disney.png'
+import Humid from './humid.png'
+import Themo from './themo.png'
 
 export const Bio = {
   name: "Shivam Nikam",
@@ -374,7 +378,7 @@ export const projects = [
   {
     id: 1,
     title: "Path Finding Visualizer",
-    date: "Oct 2022 - Present",
+    date: " Apr 2023 - May 2023",
     description:
       "Experience the Dijkstra's Algorithm Visualizer, a dynamic tool that brings graph traversal and pathfinding to life through captivating visualizations. Ideal for students, educators, developers, and algorithm enthusiasts, it offers an immersive, user-friendly experience to master Dijkstra's algorithm efficiently and elegantly. Witness it in action and explore the shortest path with style.",
     image:
@@ -391,51 +395,49 @@ export const projects = [
   {
     id: 2,
     title: "Intelligent Humidistat",
-    date: "Jan 2023 - Mar 2023",
+    date: "Jan 2022 - Mar 2022",
     description:
-      "Preprocessed and augmented the dataset to improve model accuracy, trained the model, created API using model and Python, and used React web app for the project's front end. Achievements: Achieved an accuracy of 99.2% to accurately detect brain tumors from medical images.",
+      "I designed and developed a humidistat that adjusts indoor humidity based on outside temperature. The project required the use of two sensors, one for outside temperature and one for indoor humidity, and an LCD display to show readings. The system also included a simple relay to control the humidifier and a switch to turn the entire system on or off. My role in the project included designing and writing assembly code for the microprocessor.",
     image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
-    tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
+      Humid,
+    tags: ["ALP", "Micrprocessors"],
     category: "microprocessors",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
+    github: "https://drive.google.com/drive/folders/1bRTpDsbBVO7f5LyZgM-jCgiB9WZ1wJ6C",
   },
   {
     id: 3,
-    title: "Boron Based Compounds",
-    date: "Dec 2021 - Apr 2022",
+    title: "Thermoelectric Materials",
+    date: "May 2022 - Dec 2022",
     description:
-      "App Is Currently In Playstore 100+ Downloads. This Project proposes an “Expense Tracking App”. Keep track of your personal expenses and compare them to your monthly income with the budget planner. It has Google Drive Cloud API for Backup of User Room Database. Made with Kotlin in MVVM Architecture & Live Data.",
+      "This review delves into the extensive realm of thermoelectric materials and their versatile applications. With a particular emphasis on the semiconducting Zn4Sb3 compound, this project scrutinizes its chemical and physical attributes. Thermoelectric materials play pivotal roles across various industries, offering a plethora of exciting applications. Notably, in the realm of space exploration, heavily doped semiconductors like silicon-germanium (SiGe) thermocouples serve as indispensable tools. These SiGe thermoelectric systems exhibit remarkable resistance to radiation damage, enabling their utilization in the harsh conditions of space, particularly for missions near the sun, where traditional solar cells falter due to extreme heat and particle flux. This report comprehensively examines thermoelectric materials, encompassing their characterization, fabrication, and practical use, while also addressing the impending challenges and prospects in this dynamic field.",
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Kotlin", "MVVM", "Room Database", "Google Drive Cloud API"],
+      Themo,
+    tags: [ "Semiconductors", "Space Exploration", "Radiation Resistance", "Energy Conversion", "Materials Characterization", "Thermoelectric Applications"]
+    ,
     category: "research",
-    github: "https://github.com/rishavchanda/Buckoid-Android-App",
-    webapp: "https://play.google.com/store/apps/details?id=com.rishav.buckoid",
+    github: "https://drive.google.com/drive/folders/18aM9B16hMyTF2c-Rx0K_Hrz38Tnu_sgo",
   },
   {
     id: 10,
     title: "Search Api",
-    date: "Jun 2023 - Jul 2023",
+    date: "Jun 2023 - Jun 2023",
     description:
-      "A Job Finding App made with React Native, Axios. Users can search for any job coming from API and apply there.",
+      " This project is a Flask-based web application that provides a user-friendly interface to search and filter comments from a YouTube video using a REST API. The web interface allows users to specify search criteria such as author name, date range, like and reply count ranges, and specific keywords within comment text. The application retrieves comments from the API and dynamically displays the filtered results in a table format.",
     image:
-      "https://user-images.githubusercontent.com/64485885/255237090-cf798a2c-1b41-4bb7-b904-b5353a1f08e8.png",
-    tags: ["React Native", "JavaScript", "Axios"],
+      Search,
+    tags: ["Python", "Python Flask"],
     category: "web app",
-    github: "https://github.com/rishavchanda/Job-finder-App",
-    webapp: "https://github.com/rishavchanda/Job-finder-App",
+    github: "https://github.com/Shivam-Sanjay-Nikam/Search-API",
   },
   {
     id: 4,
     title: "Disney+ UI Clone",
     date: "Jul 2021",
     description:
-      "A WhatsApp clone made with React JS, Firebase, and Material UI. It has Phone Authentication, Real-time Database. It has a chat room where users can chat with each other. It has a sidebar where users can see all the chat rooms and can create a new chat room. It has a login page where users can log in with their Google account.",
+      "Developed a Disney+ user interface clone using React and Firebase technologies . The project involved integrating Firebase for user authentication and data storage. UI components were created to replicate the Disney+ layout, including navigation, sliders, and carousels. Firebase Firestore was utilized for storing and retrieving movie and series data. User profile pages were implemented to enable users to update preferences and save favorite content . The application was designed with responsive design principles to ensure a seamless user experience on different devices. The final version was deployed using Firebase Hosting for easy access.",
     image:
-      "https://firebasestorage.googleapis.com/v0/b/whatsapp-clone-rishav.appspot.com/o/Screenshot%20(151).png?alt=media&token=48391593-1ef0-4a8c-a92a-eb82bdf38e89",
-    tags: ["React Js", "Firebase", "Firestore", "Node JS"],
+      Disney,
+    tags: ["React Js", "Firebase", "Firestore"],
     category: "web app",
     github: "https://github.com/rishavchanda/Whatsapp-Clone-React-Js",
     webapp: "https://whatsapp-clone-rishav.web.app",
